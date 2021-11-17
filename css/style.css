@@ -14,6 +14,7 @@
 }
 
 /*utilities*/
+.bottom-footer,
 .container{
     max-width: 70%;
     margin: 0 auto;
@@ -276,6 +277,7 @@ h3{
     margin-bottom: 50px;
 }
 
+
 .end-title > a {
     background-color: #8EA1E1;
     color: white;
@@ -291,7 +293,7 @@ h3{
 /*footer*/
 .end-bar{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-color: #23272A;
 }
 
@@ -323,10 +325,40 @@ h3{
     margin-top: 10px;
 }
 
+.languages{
+    color: white;
+}
 
 
+.bottom-footer{
+    width: 100%;
+    height: 20vh;
+    background-color:#23272A ;
+    border-top: 1px solid #7289DA;
+    margin-top: 50px;
+    padding-top: 30px;
+}
 
+.logo-footer{
+    width: 50%;
 
+}
+
+.btn-registrati{
+    width: 50%;
+}
+ .registrati a{
+    background-color:#7289DA ;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.registrati{
+    text-align: right;
+}
 
 
 
