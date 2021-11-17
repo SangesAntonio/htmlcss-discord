@@ -327,6 +327,8 @@ h3{
 
 .languages{
     color: white;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 
@@ -346,6 +348,7 @@ h3{
 
 .btn-registrati{
     width: 50%;
+    text-align: right;
 }
  .registrati a{
     background-color:#7289DA ;
@@ -354,13 +357,4 @@ h3{
     padding: 10px 15px;
     border-radius: 20px;
     display: inline-block;
-}
-
-.registrati{
-    text-align: right;
-}
-
-
-
-
-
+ }
