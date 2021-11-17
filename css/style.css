@@ -91,17 +91,9 @@
 
 .arrow::before{
     content: "\2193";
-    color: black;
-    
+    color: black;    
 }
 
-h2{
-    font-size: 3.5rem;
-}
-
-p{
-    font-size: 1.5rem;
-}
 
 .bg-gray{
     background-color: #F6F6F6;
@@ -176,12 +168,12 @@ p{
 }
 
 /*main sections*/
+h2{
+    font-size: 3.5rem;
+}
 
-.section.first{
-    width: 100%;
-    height: 100vh;
-    padding-top: 100px;
-    
+p{
+    font-size: 1.5rem;
 }
 
 .w60{
@@ -192,6 +184,13 @@ p{
     width: 40%;
 }
 
+.section.first{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    
+}
+.section.second .img-second,
 .section.first .img-first{
     width: 95%;
     height: auto;
@@ -216,6 +215,19 @@ p{
     padding-top: 40px;
 }
 
+/*third*/
+.section.third{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    
+}
+
+.section.third .w40 p,
+.section.third .w40 h2{
+    padding-left: 100px;
+    padding-top: 40px;
+}
 
 
 
